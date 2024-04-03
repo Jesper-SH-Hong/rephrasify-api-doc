@@ -413,7 +413,7 @@
         }
       }
     },
-    "/usermanagement/getAllUsage": {
+    "/usermanagement/getAllUsages": {
       "get": {
         "tags": ["usermanagement"],
         "summary": "Get all API usage",

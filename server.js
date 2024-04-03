@@ -30,7 +30,7 @@ const dynamicSwaggerDefinitions = {
 openApiDocumentation.servers = dynamicSwaggerDefinitions.servers;
 
 app.use(
-  "/v1",
+  "/doc",
   swaggerUi.serve,
   swaggerUi.setup(openApiDocumentation, { explorer: true })
 );
